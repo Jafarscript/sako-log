@@ -1,0 +1,423 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.headpage {
+}
+
+header {
+  background: rgb(41, 108, 235);
+  padding: 12px 150px;
+  width: 100%;
+}
+header p {
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+header p span {
+  font-weight: 500;
+}
+.fixedivm{
+  padding: 20px 150px 25px 150px;
+  border-bottom: 0.4px solid rgba(0, 0, 0, 0.2);
+
+}
+.fixedivm .paste{
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 10px;
+  font-weight: bolder;
+  margin-left: 5px;
+  font-size: 20px;
+}
+.fixedivm .paste span{
+  float: right;
+  border: 3px solid rgba(0, 0, 0, 0.2);
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "Catamaran", sans-serif;
+}
+
+.fixediv {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.fixediv ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.fixediv ul li {
+  margin-left: 60px;
+  cursor: pointer;
+}
+
+.fixediv ul li {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.fixediv ul li i {
+  font-size: 23px;
+  margin-right: 15px;
+}
+.fixediv ul li #bag{
+  margin-right: 5px;
+}
+.fixediv ul li sup{
+  background-color: rgb(250, 16, 67);
+  color: #fff;
+  padding: 1px 5px;
+  border-radius: 50%;
+  font-size: 12px;
+}
+
+.target {
+  display: flex;
+  /* align-items: center; */
+}
+.target .right {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+} /* Changing the font and size */
+.target .right h3 {
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 7px;
+}
+.target .right h5 {
+  font-weight: 200;
+}
+.first {
+  background: rgb(191, 210, 245);
+  padding: 5px 15px;
+  border-radius: 20px;
+}
+
+.target i {
+  border: 1px transparent;
+  padding: 12px 12px;
+  background-color: rgb(248, 247, 247);
+  border-radius: 50%;
+  font-size: 30px;
+  margin-right: 24px;
+  color: rgb(71, 70, 70, 0.5);
+}
+.product {
+  padding: 30px 160px;
+}
+.details{
+  display: grid;
+  grid-template-columns: 3fr 9fr;
+  border: 1px solid rgb(71, 70, 70, 0.5);
+  height: 100%;
+  border-radius: 20px;
+  height: 700px;
+  /* padding: 30px; */
+}
+.place{
+  border-right: 1px solid rgba(128, 128, 128, 0.5);
+  padding-top: 30px;
+  padding-left: 30px;
+}
+
+.place h3{
+  padding-right: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  cursor: pointer;
+}
+.select{
+  color: rgb(41, 108, 235);
+  border-right: 5px solid rgb(41, 108, 235);
+}
+.place h3 i{
+  font-size: 20px;
+  margin-right: 20px;
+}
+.order{
+  padding: 30px;
+  padding-left: 70px;
+}
+.addbox{
+  display: flex;
+  flex-direction: row;
+  font-family: "Catamaran", sans-serif;
+}
+.addbox .box1{
+  border: 0.4px solid gray;
+  padding: 10px;
+  width: 200px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+.addbox .two{
+  border: 0.4px solid gray;
+  padding: 5px 10px;
+  width: 200px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+.addbox .box1 .h4{
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+.addbox .box1 .h5{
+  font-size: 12px;
+  /* line-height: 15px; */
+  font-weight: 300;
+  margin-bottom: 10px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.addbox .box1 h4{
+  font-size: 13px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 20px;
+}
+.box1 span{
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-right: 20px;
+  cursor: pointer;
+}
+.box1 .red{
+  color: rgb(250, 16, 67);
+}
+.addbox .two{
+  color: rgb(41, 108, 235);
+  font-size: 14px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.addbox .two i{
+  margin-right: 10px;
+}
+.sticker {
+  position: fixed;
+  bottom: 10px;
+  left: 5px;
+  z-index: 100;
+}
+
+.sticker div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.sticker div h6 {
+  padding: 9px 13px;
+  font-size: 12px;
+  cursor: pointer;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  border: 0.05px solid rgba(128, 128, 128, 0.315);
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.897);
+  margin-right: 5px;
+}
+
+.sticker div h6 i {
+  margin-right: 10px;
+  font-size: 15px;
+}
+
+@media (max-width: 926px) {
+  header {
+    padding: 12px 20px;
+    width: 100%;
+    overflow: hidden;
+  }
+  header p {
+    font-size: 12px;
+  }
+  .fixediv {
+    padding: 20px;
+  }
+  .target .right h3 {
+    font-size: 13px;
+  }
+  .target .right h5 {
+    font-size: 8px;
+    font-weight: bolder;
+  }
+  .target i {
+    font-size: 15px;
+    padding: 0px 6px;
+    border-radius: 2px;
+    text-align: center;
+    display: none;
+  }
+  .fixediv ul li {
+    font-size: 10px;
+    margin-left: 9px;
+  }
+  .fixediv ul li i {
+    font-size: 15px;
+    text-align: center;
+    margin-right: 4px;
+  }
+  .goods {
+    padding: 20px;
+    display: flex;
+  }
+  .items {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .custom {
+    padding: 20px;
+  }
+  .custom p img {
+    width: 25px;
+    height: 25px;
+  }
+  .custom h4 {
+    font-size: 13px;
+  }
+  .last {
+    padding-top: 20px;
+  }
+  .last h5 {
+    font-size: 11px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  .last h3 {
+    font-size: 16px;
+  }
+  .last h6 {
+    font-size: 10px;
+  }
+  .sticker div h6 {
+    padding: 5px 5px;
+    font-size: 10px;
+    font-weight: 900;
+  }
+  .sticker div h6 i {
+    font-size: 12px;
+    margin-right: 2px;
+  }
+  .itemImg img {
+    width: 250px;
+    height: 250px;
+  }
+  .info h4 {
+    text-align: center;
+  }
+  .info h5 {
+    margin-bottom: 15px;
+  }
+  .btn {
+    margin-top: 30px;
+  }
+  .btn button {
+    padding: 9px 13px;
+    font-size: 13px;
+    cursor: pointer;
+  }
+  .listed {
+    text-align: center;
+    border-right: none;
+  }
+  .listed ul li {
+    padding-right: 0px;
+    font-size: 12px;
+  }
+  .listed h4 {
+    font-size: 12px;
+  }
+
+  .btn .btn2 {
+    padding: 11px 20px;
+  }
+  .search {
+    text-align: center;
+  }
+  .search input {
+    width: 200px;
+    font-size: 12px;
+    padding: 5px;
+  }
+  .search i {
+    font-size: 16px;
+    padding: 5px;
+    top: -75%;
+  }
+  .product {
+    padding: 1px 20px;
+  }
+  .mainp {
+    grid-template-columns: 1fr;
+  }
+  .boxes {
+    padding: 20px;
+    border-right: none;
+  }
+  .box {
+    width: 100%;
+  }
+  .text img {
+    width: 40px;
+    height: 50px;
+  }
+  .text h5 {
+    font-size: 11px;
+  }
+  .text h4 {
+    font-size: 12px;
+  }
+  .text s {
+    font-size: 10px;
+  }
+  .box button {
+    font-size: 10px;
+  }
+  .boxes h3 {
+    font-size: 15px;
+  }
+  .add h3 {
+    font-size: 15px;
+  }
+  .cen {
+    margin-bottom: 0px;
+  }
+  .cen .icon {
+    font-size: 50px;
+  }
+  .cen h4 {
+    font-size: 13px;
+  }
+  .cen .text2 {
+    font-size: 12px;
+  }
+  .add {
+    margin-bottom: 30px;
+  }
+  .btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .btn button {
+    padding: 9px 13px;
+    font-size: 5px;
+  }
+
+  .btn .btn2 {
+    padding: 10px 10px;
+  }
+}
